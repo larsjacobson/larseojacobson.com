@@ -1,9 +1,17 @@
-name: Build & Deploy Jekyll
-
+name: Build with Jekyll (Pages)
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -14,13 +22,18 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
-      - name: Build site
-        run: |
-          bundle install
-          JEKYLL_ENV=production bundle exec jekyll build -d _site
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - run: bundle install --jobs 4 --retry 3
+      - run: JEKYLL_ENV=production bundle exec jekyll build -d _site
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: gh-pages
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
