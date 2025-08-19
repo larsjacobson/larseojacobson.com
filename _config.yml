@@ -1,9 +1,12 @@
 title: "Dr. Your Name"
 description: "PhD in Computer Science — Research, Publications, Teaching"
-url: ""        # add custom domain later, else leave blank
-baseurl: ""    # keep empty for https://YOURUSERNAME.github.io
+url: ""
+baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes@4.26.0"
+# ✅ Use the gem theme (works perfectly with Actions)
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"   # nice, professional skin (options: default, air, contrast, dark, etc.)
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -25,16 +28,24 @@ collections:
 
 defaults:
   - scope: {path: "", type: "pages"}
-    values: {layout: single, classes: wide}
+    values:
+      layout: single
+      classes: wide
+      toc: true
+      toc_sticky: true
   - scope: {path: "", type: "publications"}
-    values: {layout: single}
+    values:
+      layout: single
+      classes: wide
   - scope: {path: "", type: "projects"}
-    values: {layout: single}
+    values:
+      layout: single
+      classes: wide
 
 author:
   name: "Dr. Your Name"
   avatar: "/assets/img/profile.jpg"
-  bio: "PhD Candidate in Computer Science at Your University. Research in ML/Systems."
+  bio: "PhD Candidate in Computer Science, **Your University**. Research: trustworthy ML, temporal modelling, deployment."
   location: "City, Country"
   links:
     - label: "Email"
@@ -42,10 +53,10 @@ author:
       url: "mailto:your.email@university.edu"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/"
+      url: "https://scholar.google.com/citations?user=XXXX"
     - label: "ORCID"
       icon: "fas fa-id-badge"
-      url: "https://orcid.org/"
+      url: "https://orcid.org/0000-0000-0000-0000"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/your-handle"
@@ -66,3 +77,6 @@ scholar:
 
 google_analytics: ""   # e.g., G-XXXXXXX
 permalink: /:categories/:title/
+
+logo: /assets/img/logo.svg     # optional
+favicon: /assets/img/favicon.png
