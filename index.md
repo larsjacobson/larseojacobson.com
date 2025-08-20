@@ -13,5 +13,4 @@ Welcome!
 I work on **trustworthy machine learning**, **temporal modelling**, and **efficient ML systems**.
 
 - 🔬 See **[Publications](/publications/)** and **[Projects](/projects/)**.
-- 🧑‍🏫 **[About / Research](/about/)** for a short bio and interests.
-- 📄 CV (add a link when you upload it to `/assets/cv/CV.pdf`).
+- 🧑‍🏫 **[About / Research](/about/)** for a short bio
