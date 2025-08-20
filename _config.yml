@@ -3,9 +3,14 @@ description: "PhD in Computer Science — Research, Publications, Teaching"
 url: ""
 baseurl: ""
 
-# ✅ Use the gem theme (works perfectly with Actions)
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"   # nice, professional skin (options: default, air, contrast, dark, etc.)
+minimal_mistakes_skin: "air"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-scholar
 
 plugins:
   - jekyll-feed
