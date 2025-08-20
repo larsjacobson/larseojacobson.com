@@ -9,7 +9,7 @@ header:
   overlay_filter: "0.35"
 ---
 
-Welcome! I’m **Lars Jacobson**, a PhD researcher in Computer Science.  
+Welcome!
 I work on **trustworthy machine learning**, **temporal modelling**, and **efficient ML systems**.
 
 - 🔬 See **[Publications](/publications/)** and **[Projects](/projects/)**.
