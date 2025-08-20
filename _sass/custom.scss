@@ -1,0 +1,4 @@
+/* Subtle improvements: nicer link underline, slightly wider content, tidy cards */
+a { text-underline-offset: 2px; }
+.page__content { max-width: 68rem; }   /* default ~64rem; small bump */
+.btn, .notice--primary { border-radius: 0.6rem; }

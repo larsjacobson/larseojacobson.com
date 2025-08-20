@@ -1,87 +1,30 @@
-title: "Dr. Your Name"
-description: "PhD in Computer Science — Research, Publications, Teaching"
-url: ""
-baseurl: ""
-
+title: "Dr. Lars E. O. Jacobson"
+description: "PhD in Computer Science — research, publications, projects"
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-include-cache
-  - jekyll-scholar
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-include-cache
-  - jekyll-scholar
-
-markdown: kramdown
-kramdown:
-  input: GFM
-
-collections:
-  publications:
-    output: true
-    permalink: /publications/:title/
-  projects:
-    output: true
-    permalink: /projects/:title/
-
-defaults:
-  - scope: {path: "", type: "pages"}
-    values:
-      layout: single
-      classes: wide
-      toc: true
-      toc_sticky: true
-  - scope: {path: "", type: "publications"}
-    values:
-      layout: single
-      classes: wide
-  - scope: {path: "", type: "projects"}
-    values:
-      layout: single
-      classes: wide
+minimal_mistakes_skin: "air"   # try "default", "contrast", "dark"
 
 author:
-  name: "Dr. Your Name"
+  name: "Dr. Lars E. O. Jacobson"
   avatar: "/assets/img/profile.jpg"
-  bio: "PhD Candidate in Computer Science, **Your University**. Research: trustworthy ML, temporal modelling, deployment."
-  location: "City, Country"
+  bio: "PhD candidate in Computer Science. Interests: trustworthy ML, temporal modelling, ML systems."
+  location: "Varberg, Sweden"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:your.email@university.edu"
+      url: "mailto:lars.jacobson@gmail.com"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=XXXX"
+      url: "https://scholar.google.com/"
     - label: "ORCID"
       icon: "fas fa-id-badge"
-      url: "https://orcid.org/0000-0000-0000-0000"
+      url: "https://orcid.org/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/your-handle"
+      url: "https://github.com/<your-handle>"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-handle/"
+      url: "https://www.linkedin.com/in/<your-handle>/"
 
-# jekyll-scholar
-scholar:
-  style: apa
-  locale: en
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: bib
-  query: "@*"
-  sort_by: year, month
-  order: descending
-
-google_analytics: ""   # e.g., G-XXXXXXX
-permalink: /:categories/:title/
-
-logo: /assets/img/logo.svg     # optional
+# Optional
+logo: /assets/img/logo.svg
 favicon: /assets/img/favicon.png

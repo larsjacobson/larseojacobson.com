@@ -1,19 +1,17 @@
 ---
 layout: single
-title: " "
+title: ""
 permalink: /
 author_profile: true
 header:
+  overlay_image: /assets/img/hero.jpg
   overlay_color: "#0b1220"
-  overlay_filter: "0.3"
-  overlay_image: /assets/img/hero.jpg   # optional, add your own banner image
-  caption: " "
+  overlay_filter: "0.35"
 ---
 
-Welcome! I am a PhD researcher in Computer Science at **Your University**.  
-My work focuses on *[your topics]* (e.g., machine learning for healthcare, trustworthy AI, systems).
+Welcome! I’m **Lars Jacobson**, a PhD researcher in Computer Science.  
+I work on **trustworthy machine learning**, **temporal modelling**, and **efficient ML systems**.
 
-- 🔬 See my latest **[Publications](/publications/)** and **[Projects](/projects/)**.
-- 🧑‍🏫 Visit **[Teaching](/teaching/)** for course material.
-- 📄 Download my **[CV](/assets/cv/CV.pdf)**.
-- 🧪 Explore **[Resources](/resources/)** (datasets, code, slides).
+- 🔬 See **[Publications](/publications/)** and **[Projects](/projects/)**.
+- 🧑‍🏫 **[About / Research](/about/)** for a short bio and interests.
+- 📄 CV (add a link when you upload it to `/assets/cv/CV.pdf`).

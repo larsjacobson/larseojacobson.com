@@ -1,8 +1,7 @@
 ---
 title: "Publications"
 permalink: /publications/
+toc: false
 ---
 
-Below is an auto-generated list from your BibTeX file. Add entries to `_bibliography/references.bib`.
-
-{% bibliography %}
+{% bibliography --group_by year --sort_by year --order descending %}
