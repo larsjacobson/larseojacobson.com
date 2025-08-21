@@ -1,17 +1,17 @@
 title: "Dr. Lars E. O. Jacobson"
-description: "PhD in Computer Science — research, publications, projects"
+description: "Computer Science description"
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"   # try "default", "contrast", "dark"
+minimal_mistakes_skin: "dark"   # try "default", "contrast", "dark"
 
 author:
   name: "Dr. Lars E. O. Jacobson"
   avatar: "/assets/img/profile.jpg"
-  bio: "PhD candidate in Computer Science. Interests: trustworthy ML, temporal modelling, ML systems."
-  location: "Varberg, Sweden"
+  bio: "Computer Science bio"
+  location: "London, United Kingdom"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:lars.jacobson@gmail.com"
+      url: "mailto:lars@eojacobson.com"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/"
@@ -26,5 +26,5 @@ author:
       url: "https://www.linkedin.com/in/<your-handle>/"
 
 # Optional
-logo: /assets/img/logo.svg
+logo: /assets/img/logo.jpg
 favicon: /assets/img/favicon.png
