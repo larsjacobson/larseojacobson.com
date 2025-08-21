@@ -27,3 +27,8 @@ author:
 
 logo: /assets/img/logo.png
 favicon: /assets/img/favicon.png
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
