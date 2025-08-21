@@ -2,6 +2,7 @@
 @import "minimal-mistakes";
 @import "custom";
 
-body {
-  font-family: "Times New Roman", Times, serif;
+body,
+body * {
+  font-family: "Times New Roman", Times, serif !important;
 }

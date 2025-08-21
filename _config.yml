@@ -1,10 +1,10 @@
-title: "Dr. Lars E. O. Jacobson"
+title: "Dr. Lars E.O. Jacobson"
 description: "Computer Science description"
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"   # try "default", "contrast", "dark"
 
 author:
-  name: "Dr. Lars E. O. Jacobson"
+  name: "Dr. Lars E.O. Jacobson"
   avatar: "/assets/img/profile.jpg"
   bio: "Computer Science bio"
   location: "London, United Kingdom"
@@ -45,3 +45,7 @@ scholar:
   locale: en
   source: ./_bibliography
   bibliography: references.bib
+
+sass:
+  sass_dir: _sass
+  style: compressed
