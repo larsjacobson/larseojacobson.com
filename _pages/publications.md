@@ -9,4 +9,7 @@ header:
   overlay_color: "#0b1220"
   overlay_filter: "0.35"
 ---
+
+### Publications
+
 {% bibliography --group_by year --sort_by year --order descending %}
