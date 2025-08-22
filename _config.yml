@@ -58,3 +58,6 @@ footer:
       url: "https://github.com/larseojacobson"
   
 copyright: "© 2025 Dr. Lars E. O. Jacobson. All rights reserved."
+
+url: "https://larseojacobson.com"
+baseurl: ""
