@@ -12,7 +12,7 @@ header:
 - **Project A:** one-line summary and link
 - **Project B:** one-line summary and link
 
-```mermaid
+<div class="mermaid">
 flowchart TB
   %% ---------- Styles ----------
   classDef data   fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
@@ -73,4 +73,4 @@ flowchart TB
   %% Notes
   N1["All data in same CRS; track provenance/metadata"]:::note
   P2 --- N1
-```
+</div>
