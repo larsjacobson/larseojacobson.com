@@ -4,7 +4,6 @@ title: "About & Research"
 permalink: /about/
 author_profile: true
 header:
-  overlay_image: /assets/img/hero.jpg
   overlay_color: "#0b1220"
   overlay_filter: "0.35"
 ---
